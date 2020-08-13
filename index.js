@@ -6,6 +6,3 @@ function updateObjectWithKeyAndValue(object, key, value) {
 const recipes = {prop: 1}
 updateObjectWithKeyAndValue(recipes, "prop2", "2")
 
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  return recipes = {prop: 1, prop2: 2}
-}
